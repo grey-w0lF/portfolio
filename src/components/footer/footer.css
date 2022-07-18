@@ -1,0 +1,12 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+.footer-text {
+  font-size: 20px;
+  color: rgb(9, 34, 63);
+  font-family: "Almarai";
+}

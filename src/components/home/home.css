@@ -1,0 +1,74 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.my-name {
+  margin-top: 230px;
+  margin-left: 5vw;
+  font-family: Cookie, cursive;
+  font-size: 120px;
+  color: rgb(9, 34, 63);
+}
+
+.quote {
+  margin-top: 15px;
+  margin-left: 5vw;
+  font-family: Rochester;
+  font-size: 45px;
+  color: rgb(9, 34, 63);
+}
+
+.my-image {
+  height: 75vh;
+  width: 50vw;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 1900px) {
+  .my-name {
+    font-size: 90px;
+  }
+  .quote {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .my-name {
+    font-size: 75px;
+  }
+  .quote {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .my-name {
+    font-size: 55px;
+  }
+  .quote {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home-container {
+    flex-direction: column;
+  }
+  .my-image {
+    margin-top: 5vh;
+    height: 300px;
+    width: 350px;
+    margin-left: 13vw;
+  }
+  .my-name {
+    font-size: 57px;
+    margin-top: 2px;
+    align-items: center;
+  }
+  .quote {
+    font-size: 30px;
+  }
+}

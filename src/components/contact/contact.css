@@ -1,0 +1,234 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text {
+  margin-left: 45%;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: #080879;
+  font-size: 370%;
+  font-family: "Almarai";
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.contact-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.description-and-logo {
+  margin-right: 5vw;
+}
+
+.contact-img {
+  height: 65vh;
+  width: 50vw;
+  margin-left: 3vw;
+  /* margin-right: vw; */
+}
+
+.contact-description {
+  font-size: 50px;
+  font-family: Rochester, cursive;
+  margin-top: 16vh;
+  margin-right: 2vw;
+  margin-left: 1vw;
+  color: rgb(9, 34, 63);
+}
+
+.description-and-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5vh;
+  margin-left: 30vh;
+  margin-right: 30vh;
+}
+
+.linkedin-img {
+  height: 6vh;
+  width: 2.8vw;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  border-radius: 50px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+
+.linkedin-img:hover {
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 2);
+}
+
+.github-img {
+  height: 6vh;
+  width: 2.8vw;
+  border-radius: 50px;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+.github-img:hover {
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 2);
+}
+
+.gmail-img {
+  height: 4vh;
+  width: 2vw;
+  border-radius: 50px;
+  padding: 1vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+.gmail-img:hover {
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 2);
+}
+
+.facebook-img {
+  height: 6vh;
+  width: 2.8vw;
+  border-radius: 50px;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+.facebook-img:hover {
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 2);
+}
+
+.resume {
+  margin-left: 18vw;
+  margin-right: 18vw;
+  margin-top: 5vh;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  border: solid;
+  padding: 5px;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  font-family: "Almarai";
+  transition-duration: 0.3s;
+}
+
+.resume:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+@media only screen and (max-width: 1600px) {
+  .contact-img {
+    width: 40vw;
+  }
+  .description-and-logo {
+    margin-right: 8vw;
+  }
+  .contact-description {
+    font-size: 40px;
+    margin-top: 25vh;
+    margin-left: 1px;
+  }
+  .resume {
+    margin-right: 23.5vw;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .contact-description {
+    font-size: 35px;
+    margin-top: 25vh;
+  }
+  .resume {
+    margin-right: 29.5vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact-img {
+    margin-top: 1vh;
+    height: 30vh;
+  }
+  .description-and-logo {
+    padding-right: 5vw;
+  }
+  .contact-description {
+    font-size: 25px;
+    margin-top: 10vh;
+    margin-right: 20px;
+  }
+  .resume {
+    margin-right: 32vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-text {
+    font-size: 45px;
+    margin-left: 35%;
+    margin-top: 10vh;
+  }
+  .contact-img {
+    height: 300px;
+    width: 450px;
+    padding: 10px;
+  }
+
+  .contact-description {
+    font-size: 25px;
+    /* margin-top: 35px; */
+    /* margin-right: 8px; */
+    margin-left: 10vw;
+  }
+  .social-media-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0vh;
+    margin-right: 0vh;
+  }
+  .linkedin-img {
+    margin-left: 15vw;
+    height: 7vh;
+    width: 10vw;
+  }
+  .github-img {
+    /* margin-left: 0px; */
+    height: 7vh;
+    width: 10vw;
+  }
+  .gmail-img {
+    /* margin-left: 0px; */
+    height: 5vh;
+    width: 7vw;
+  }
+  .facebook-img {
+    margin-right: 15vw;
+    height: 7vh;
+    width: 10vw;
+  }
+  .resume {
+    font-size: 20px;
+    margin-right: 29vw;
+    margin-left: 33vw;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+  }
+}

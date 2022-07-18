@@ -1,0 +1,184 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-heading {
+  margin-left: 45%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  color: #080879;
+  font-size: 370%;
+  font-family: "Almarai";
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* Competitive */
+
+.cp {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.competitive {
+  margin-top: 15%;
+  margin-left: 10vw;
+  font-size: 330%;
+  color: rgb(9, 34, 63);
+}
+
+.cp-image {
+  height: 45vh;
+  width: 45vw;
+  margin-left: 4vw;
+}
+
+.cp-logo {
+  margin-top: 3%;
+}
+
+.lc-img {
+  height: 15%;
+  width: 18%;
+  margin-left: 10vw;
+  padding-bottom: 1.3%;
+  z-index: 10;
+}
+
+.cf-img {
+  height: 15%;
+  width: 18%;
+  margin-left: 2%;
+  padding-bottom: 2%;
+  z-index: 20;
+}
+
+.cc-img {
+  height: 15%;
+  width: 18%;
+  margin-left: 2%;
+  /* padding-bottom: 3%; */
+}
+
+.gfg-img {
+  height: 6%;
+  width: 10%;
+  margin-left: 2%;
+  padding-bottom: 0.6%;
+}
+
+.cp-description {
+  font-size: 200%;
+  margin-left: 10vw;
+  margin-top: 4vh;
+  color: rgb(9, 34, 63);
+}
+
+/* Development */
+
+.dev {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.development {
+  font-size: 55px;
+  margin-top: 160px;
+  margin-left: 15%;
+  color: rgb(9, 34, 63);
+}
+
+.developer-description {
+  font-size: 25px;
+  margin-left: 15%;
+  margin-top: 1vh;
+  color: rgb(9, 34, 63);
+}
+
+.dev-image {
+  margin-top: 13vh;
+  margin-left: 12vw;
+  width: 50vw;
+  height: 55vh;
+}
+
+.dev-front {
+  margin-top: 3%;
+}
+.dev-back {
+  margin-top: 1.5%;
+}
+
+.dev-logo {
+  margin-top: 1vh;
+}
+
+.js-img {
+  height: 15%;
+  width: 18%;
+  margin-left: 15%;
+  padding-bottom: 2%;
+}
+
+.node-img {
+  height: 10%;
+  width: 22%;
+  margin-left: 0.6%;
+  padding-bottom: 2.7%;
+}
+
+.mongo-img {
+  height: 10%;
+  width: 22%;
+  margin-left: 3%;
+}
+
+.react-img {
+  height: 10%;
+  width: 16%;
+  margin-left: 0.1%;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-heading {
+    font-size: 45px;
+    margin-left: 27vw;
+    margin-top: 7vh;
+  }
+  .cp-image {
+    height: 270px;
+    width: 400px;
+    margin-left: 5vw;
+    margin-top: 2px;
+  }
+  .cp {
+    flex-direction: column;
+  }
+  .competitive {
+    font-size: 45px;
+    margin-top: 1vh;
+    /* margin-left: 20vw; */
+  }
+  .cp-description {
+    font-size: 25px;
+    padding-right: 1px;
+  }
+  .dev {
+    flex-direction: column;
+  }
+  .development {
+    font-size: 45px;
+    margin-top: 8vh;
+  }
+  .dev-logo {
+    margin-right: 5px;
+  }
+  .dev-image {
+    height: 250px;
+    width: 390px;
+    margin-top: 5vh;
+  }
+}

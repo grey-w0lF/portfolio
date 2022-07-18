@@ -1,0 +1,609 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-heading {
+  margin-left: 45%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  color: #080879;
+  font-size: 370%;
+  font-family: "Almarai";
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-img {
+  margin-top: 5vh;
+  height: 60vh;
+  width: 55vw;
+}
+
+.project-quote {
+  font-size: 50px;
+  font-family: Rochester, cursive;
+  margin-top: 16vh;
+  margin-right: 2vw;
+  margin-left: 1vw;
+}
+
+.all-project-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-cafebristo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7vw;
+  margin-right: 23vh;
+  margin-top: 12vh;
+  border-radius: 35px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1);
+  transition: 0.9s;
+}
+
+.project-cafebristo:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.cafebristo-img {
+  height: 40vh;
+  width: 39vw;
+  margin-bottom: 4vh;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.cafebristo-description {
+  font-size: 25px;
+  margin-left: 3vh;
+  color: rgb(9, 34, 63);
+  font-family: "Almarai";
+}
+
+.cafebristo-code-options {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-top: 6vh;
+  margin-bottom: 2vh;
+  /* margin-right: 11vw; */
+}
+
+.cb-src-code-btn {
+  margin-left: 25vh;
+  font-size: 25px;
+  border: solid;
+  padding: 5px;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  transition-duration: 0.3s;
+  font-family: "Almarai";
+}
+
+.cb-src-code-btn:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+.cb-live-site-btn {
+  margin-left: 1vh;
+  font-size: 25px;
+  border: solid;
+  padding: 5px;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  transition-duration: 0.3s;
+  font-family: "Almarai";
+}
+
+.cb-live-site-btn:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+.project-flashtype {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 5vw; */
+  margin-right: 15vh;
+  margin-top: 12vh;
+  border-radius: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  transition: 0.9s;
+}
+
+.project-flashtype:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.flashtype-img {
+  height: 40vh;
+  width: 100%;
+  margin-bottom: 4vh;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.flashtype-description {
+  font-size: 25px;
+  margin-left: 2vw;
+  margin-bottom: 10px;
+  color: rgb(9, 34, 63);
+  font-family: "Almarai";
+}
+.flashtype-code-options {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ 
+}
+
+.ft-src-code-btn {
+  margin-left: 25vh;
+  font-size: 25px;
+  border: solid;
+  padding: 5px;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  transition-duration: 0.3s;
+ 
+  font-family: "Almarai";
+}
+
+.ft-src-code-btn:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+.ft-live-site-btn {
+  margin-left: 1vh;
+  font-size: 25px;
+  border: solid;
+  padding: 5px;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  transition-duration: 0.3s;
+  font-family: "Almarai";
+}
+
+.ft-live-site-btn:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+.all-project-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-nameit {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7vw;
+  margin-right: 23vh;
+  margin-top: 10vh;
+  border-radius: 35px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1);
+  transition: 0.9s;
+}
+
+.project-nameit:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.nameit-img {
+  height: 40vh;
+  width: 100%;
+  margin-bottom: 4vh;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.nameit-description {
+  font-size: 25px;
+  margin-left: 2vw;
+  margin-bottom: 10px;
+  color: rgb(9, 34, 63);
+  font-family: "Almarai";
+}
+
+.nameit-code-options {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ni-src-code-btn {
+  margin-left: 25vh;
+  font-size: 25px;
+  border: solid;
+  padding: 5px;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  transition-duration: 0.3s;
+  font-family: "Almarai";
+}
+
+.ni-src-code-btn:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+.ni-live-site-btn {
+  margin-left: 1vh;
+  font-size: 25px;
+  border: solid;
+  padding: 5px;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  transition-duration: 0.3s;
+  font-family: "Almarai";
+}
+
+.ni-live-site-btn:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+.project-weatherapp {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* margin-left: 7vw; */
+  margin-right: 15vh;
+  margin-top: 10vh;
+  border-radius: 35px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+
+.project-weatherapp:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.weatherapp-img {
+  height: 40vh;
+  width: 100%;
+  margin-bottom: 4vh;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.weatherapp-description {
+  font-size: 25px;
+  margin-left: 2vw;
+  margin-bottom: 10px;
+  color: rgb(9, 34, 63);
+  font-family: "Almarai";
+}
+
+.weatherapp-code-options {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.wa-src-code-btn {
+  margin-left: 25vh;
+  font-size: 25px;
+  border: solid;
+  padding: 5px;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  transition-duration: 0.3s;
+  font-family: "Almarai";
+}
+
+.wa-src-code-btn:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+.wa-live-site-btn {
+  margin-left: 1vh;
+  font-size: 25px;
+  border: solid;
+  padding: 5px;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  border-radius: 15px;
+  border-color: rgb(9, 34, 63);
+  color: rgb(236, 243, 241);
+  background-color: rgb(9, 34, 63);
+  transition-duration: 0.3s;
+  font-family: "Almarai";
+}
+
+.wa-live-site-btn:hover {
+  background-color: rgb(236, 243, 241);
+  color: rgb(9, 34, 63);
+}
+
+@media only screen and (max-width: 1800px) {
+  .project-quote {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .cb-src-code-btn {
+    margin-left: 10vw;
+  }
+  .ft-src-code-btn {
+    margin-left: 10vw;
+  }
+  .wa-src-code-btn {
+    margin-left: 10vw;
+  }
+  .ni-src-code-btn {
+    margin-left: 10vw;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .cafebristo-img {
+    width: 36vw;
+  }
+  .project-quote {
+    margin-top: 12vh;
+    font-size: 40px;
+  }
+  .cb-live-site-btn {
+    margin-left: 1vh;
+  }
+  .cb-src-code-btn {
+    margin-left: 7vw;
+  }
+  .ft-src-code-btn {
+    margin-left: 7vw;
+  }
+  .wa-src-code-btn {
+    margin-left: 7vw;
+  }
+  .ni-src-code-btn {
+    margin-left: 7vw;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .cb-src-code-btn {
+    margin-left: 7vw;
+    font-size: 20px;
+  }
+  .cb-live-site-btn {
+    font-size: 20px;
+  }
+  .ft-src-code-btn {
+    margin-left: 5vw;
+    font-size: 20px;
+  }
+  .ft-live-site-btn {
+    font-size: 20px;
+  }
+  .wa-src-code-btn {
+    margin-left: 5vw;
+    font-size: 20px;
+  }
+  .wa-live-site-btn {
+    font-size: 20px;
+  }
+  .ni-src-code-btn {
+    margin-left: 6vw;
+    font-size: 20px;
+  }
+  .ni-live-site-btn {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .project-img {
+    width: 55vw;
+  }
+  .all-project-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-quote {
+    margin-top: 22vh;
+    font-size: 30px;
+  }
+
+  .all-project-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .cafebristo-img {
+    width: 100%;
+  }
+  .project-cafebristo {
+    margin-left: 13vw;
+    margin-right: 13vw;
+  }
+
+  .project-flashtype {
+    margin-left: 13vw;
+    margin-right: 13vw;
+  }
+
+  .project-weatherapp {
+    margin-left: 13vw;
+    margin-right: 13vw;
+  }
+
+  .project-nameit {
+    margin-left: 13vw;
+    margin-right: 13vw;
+  }
+  .cb-src-code-btn {
+    margin-left: 32vh;
+  }
+  .cb-live-site-btn {
+    margin-left: 1vw;
+    /* padding-right: 30vh; */
+  }
+  .ft-src-code-btn {
+    margin-left: 32vh;
+  }
+  .wa-src-code-btn {
+    margin-left: 32vh;
+  }
+  .ni-src-code-btn {
+    margin-left: 32vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project-heading {
+    display: flex;
+    font-size: 45px;
+    margin-left: 33vw;
+  }
+  .project-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-img {
+    margin-top: 5vh;
+    height: 250px;
+    width: 450px;
+    padding: 5px;
+  }
+  .project-quote {
+    margin-top: 2vh;
+    margin-left: 4vh;
+    font-size: 30px;
+  }
+  .all-project-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .all-project-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-cafebristo {
+    margin-left: 4vw;
+    margin-right: 1vh;
+  }
+  .cafebristo-img {
+    width: 100%;
+  }
+  .cafebristo-description {
+    font-size: 20px;
+  }
+  .project-flashtype {
+    margin-top: 5vh;
+    margin-left: 4vw;
+    margin-right: 1vw;
+  }
+  .flashtype-description {
+    font-size: 20px;
+  }
+  .project-nameit {
+    margin-left: 4vw;
+    margin-right: 1vw;
+  }
+  .nameit-description {
+    font-size: 20px;
+  }
+  .project-weatherapp {
+    margin-left: 4vw;
+    margin-right: 1vw;
+  }
+  .weatherapp-description {
+    font-size: 20px;
+  }
+  .cafebristo-code-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cb-src-code-btn {
+    margin-left: 80px;
+    font-size: 15px;
+  }
+  .cb-live-site-btn {
+    margin-right: 80px;
+    font-size: 15px;
+  }
+
+  .flashtype-code-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .ft-src-code-btn {
+    margin-left: 70px;
+    font-size: 15px;
+  }
+  .ft-live-site-btn {
+    margin-right: 70px;
+    font-size: 15px;
+  }
+
+  .weatherapp-code-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .wa-src-code-btn {
+    margin-left: 80px;
+    font-size: 15px;
+  }
+  .wa-live-site-btn {
+    margin-right: 80px;
+    font-size: 15px;
+  }
+
+  .nameit-code-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .ni-src-code-btn {
+    margin-left: 80px;
+    font-size: 15px;
+  }
+  .ni-live-site-btn {
+    margin-right: 80px;
+    font-size: 15px;
+  }
+}
